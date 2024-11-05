@@ -98,25 +98,25 @@ python3 classes_manage.py --help
 - **List All Subjects**
    
    ```shell
-   python3 classes_manage.py -a list -m Subject
+   python3 classes_manage.py -a list -m subject
    ```
   
 - **Create a New Grade**
    
    ```shell
-   python3 classes_manage.py -a create -m Grade --subject_id 1 --student_id 4 --grade 95 --date_of 2024-11-04
+   python3 classes_manage.py -a create -m grade --subject_id 1 --student_id 4 --grade 95 --date_of 2024-11-04
    ```
   
 - **Update a Teacher's Name**
    
    ```shell
-   python3 classes_manage.py -a update -m Teacher --id 3 --name "Dr. Emily Stone"
+   python3 classes_manage.py -a update -m teacher --id 3 --name "Emily Stone"
    ```
   
 - **Remove a Student**
    
    ```shell
-   python3 classes_manage.py -a remove -m Student --id 5
+   python3 classes_manage.py -a remove -m student --id 5
    ```
   
 ## Cleanup
